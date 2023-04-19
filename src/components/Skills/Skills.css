@@ -1,0 +1,22 @@
+.skills {
+  margin-bottom: 2rem;
+}
+
+.skills h2 {
+  margin-top: 0;
+}
+
+.skills .items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.skills .items .item {
+  background: var(--primary-color);
+  color: #fff;
+  width: fit-content;
+  padding: 0.5rem 0.6rem;
+  border-radius: 5px;
+}

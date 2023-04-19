@@ -1,0 +1,143 @@
+{
+  "header": {
+    "headline": "Stefan Gjurcheski",
+    "title": "Junior Javascript Engineer",
+    "intro": "I am an enthusiastic, self-motivated, reliable, responsible and hard working software engineer. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. My previous experience is both in frontend and backend technologies which makes me fully prepared for building complete web applications.",
+    "contacts": [
+      {
+        "type": "email",
+        "href": "mailto:stefangj@yahoo.com",
+        "text": "stefangj@yahoo.com",
+        "icon": "/icons/email.png"
+      },
+      {
+        "type": "phone",
+        "href": "tel:+38978274168",
+        "text": "+389 78 274 168",
+        "icon": "/icons/phone.png"
+      },
+      {
+        "type": "location",
+        "text": "Skopje, North Macedonia",
+        "icon": "/icons/location.png"
+      },
+      {
+        "type": "linkedIn",
+        "href": "https://www.linkedin.com/in/stefan-gjurcheski-461500161/",
+        "text": "stefangj",
+        "icon": "/icons/linked-in.png"
+      },
+      {
+        "type": "github",
+        "href": "https://github.com/stefangj",
+        "text": "stefangj",
+        "icon": "/icons/github.png"
+      },
+      {
+        "type": "website",
+        "href": "https://stefan-gjurcheski.github.io",
+        "text": "stefan-gjurcheski.github.io",
+        "icon": "/icons/website.png"
+      }
+    ]
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "data": [
+      {
+        "title": "Junior JavaScript Engineer",
+        "company": {
+          "name": "Intertec.io",
+          "url": "https://intertec.io"
+        },
+        "startDate": "2022-10-01"
+      },
+      {
+        "title": "Software Engineer",
+        "company": {
+          "name": "Inteligenta.io",
+          "url": "https://inteligenta.io"
+        },
+        "startDate": "2022-02-01",
+        "endDate": "2022-09-01"
+      },
+      {
+        "title": "Blockchain Developer",
+        "company": {
+          "name": "Inteligenta.io",
+          "url": "https://inteligenta.io"
+        },
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-01"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "data": [
+      {
+        "title": "Faculty of Computer Science and Engineering",
+        "startDate": "2016-12-01",
+        "endDate": "2021-12-01",
+        "description": "Bachelor of Science (Information Science) - Applied E-Technologies"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "data": [
+      { "title": "JavaScript / TypeScript" },
+      { "title": "React" },
+      { "title": "Redux" },
+      { "title": "Vue.js" },
+      { "title": "Pinia"},
+      { "title": "Tailwind" },
+      { "title": "Material UI" },
+      { "title": "Bootstrap" },
+      { "title": "Webpack" },
+      { "title": "Vite" },
+      { "title": "Jest" },
+      { "title": "Vitest" },
+      { "title": "Cypress" },
+      { "title": "Git", "background": "#8d2b30" },
+      { "title": "Node.js", "background": "#8d2b30" },
+      { "title": "NestJS", "background": "#8d2b30" },
+      { "title": "Java Spring Boot", "background": "#8d2b30" },
+      { "title": "Blockchain", "background": "#8d2b30" },
+      { "title": "Ethereum Blockchain", "background": "#8d2b30" },
+      { "title": "Metamask", "background": "#8d2b30" },
+      { "title": "MySQL", "background": "#8d2b30" },
+      { "title": "PostgreSQL", "background": "#8d2b30" },
+      { "title": "MongoDB", "background": "#8d2b30" },
+      { "title": "Docker", "background": "#8d2b30" },
+      { "title": "Serverless", "background": "#8d2b30" },
+      { "title": "MVC", "background": "#8d2b30" },
+      { "title": "MVVM", "background": "#8d2b30" },
+      { "title": "Microservices", "background": "#8d2b30" }
+    ]
+  },
+  "projects": {
+    "title": "Personal Project",
+    "data": [
+      {
+        "title": "Ethereum Voting System",
+        "startDate": "2021-10-01",
+        "endDate": "2021-12-01",
+        "description": "FYP of my studies. Developed voting system based on Ethereum Blockchain which can be used for secure voting for elections, referendums or any kind of questions that need anonymity."
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "data": [
+      {
+        "language": "Macedonian",
+        "proficiency": "Native Proficiency"
+      },
+      {
+        "language": "English",
+        "proficiency": "Professional Proficiency"
+      }
+    ]
+  }
+}

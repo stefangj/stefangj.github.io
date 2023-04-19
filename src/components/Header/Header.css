@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+@media only screen and (min-width: 800px) {
+  .header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header .who-am-i {
+    display: flex;
+    max-width: 500px;
+  }
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.header h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.header .contacts {
+  list-style: none;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.header .contacts .item a,
+.header .contacts .item a:visited,
+.header .contacts .item a:active {
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-image > img {
+  border-radius: 50%;
+}

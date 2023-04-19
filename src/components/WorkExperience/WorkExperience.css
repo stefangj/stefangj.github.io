@@ -1,0 +1,42 @@
+.workExperience {
+  margin-bottom: 2rem;
+}
+
+.workExperience h2 {
+  margin-top: 0;
+}
+
+.workExperience .items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.workExperience .items .item {
+  position: relative;
+  padding-left: 10px;
+}
+
+.workExperience .items .item::before {
+  width: 32px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  content: "";
+  background: var(--primary-color);
+  left: -32px;
+}
+
+.workExperience .items .item h5 {
+  margin: 0;
+}
+
+.workExperience .items .item a {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.workExperience .items .item .date {
+  margin-top: 0.3rem;
+  color: var(--primary-color);
+}

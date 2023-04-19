@@ -1,0 +1,23 @@
+.projects {
+  margin-bottom: 2rem;
+}
+
+.projects h2 {
+  margin-top: 0;
+}
+
+.projects .items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.projects .items .item h6,
+.projects .items .item p {
+  margin: 0;
+}
+
+.projects .items .item p {
+  margin-top: 0.3rem;
+  word-wrap: break-word;
+}

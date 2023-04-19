@@ -1,0 +1,23 @@
+.education {
+  margin-bottom: 2rem;
+}
+
+.education h2 {
+  margin-top: 0;
+}
+
+.education .items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.education .items .item h6,
+.education .items .item p {
+  margin: 0;
+}
+
+.education .items .item p {
+  margin-top: 0.3rem;
+  word-wrap: break-word;
+}
