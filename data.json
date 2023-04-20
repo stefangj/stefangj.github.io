@@ -2,7 +2,7 @@
   "header": {
     "headline": "Stefan Gjurcheski",
     "title": "Junior Javascript Engineer",
-    "intro": "I am an enthusiastic, self-motivated, reliable, responsible and hard working software engineer. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. My previous experience is both in frontend and backend technologies that make me fully prepared for building complete web applications.",
+    "intro": "I am an enthusiastic, self-motivated, responsible and hard working software engineer. A mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. My previous experience is both in frontend and backend technologies that make me fully prepared for building complete web applications. Motivated to advance and expand my skill set through target mentorship and challenging projects.",
     "contacts": [
       {
         "type": "email",
@@ -50,7 +50,21 @@
           "name": "Intertec.io",
           "url": "https://intertec.io"
         },
-        "startDate": "2022-10-01"
+        "startDate": "2022-10-01",
+        "projects": [
+          {
+            "projectDescription": "New Intertec Website",
+            "href": "https://intertec.io",
+            "skills": [
+              "Strapi",
+              "Astro.js",
+              "Vue.js",
+              "React",
+              "Tailwind",
+              "PostgreSQL"
+            ]
+          }
+        ]
       },
       {
         "title": "Software Engineer",
@@ -59,7 +73,17 @@
           "url": "https://inteligenta.io"
         },
         "startDate": "2022-02-01",
-        "endDate": "2022-09-01"
+        "endDate": "2022-09-01",
+        "projects": [
+          {
+            "projectDescription": "Worked on a web application for allocation of testers in High Schools, North Macedonia.",
+            "skills": ["Spring Boot", "React", "MaterialUI", "PostgreSQL"]
+          },
+          {
+            "projectDescription": "Developed REST API for mobile application for Anhoch(Shop for computer equipment).",
+            "skills": ["Spring Boot", "REST API", "MySQL"]
+          }
+        ]
       },
       {
         "title": "Blockchain Developer",
@@ -68,7 +92,17 @@
           "url": "https://inteligenta.io"
         },
         "startDate": "2021-10-01",
-        "endDate": "2022-09-01"
+        "endDate": "2022-09-01",
+        "projects": [
+          {
+            "projectDescription": "Developed a web application for buying, sending and staking fungible tokens on XinFin Blockchain Network.",
+            "skills": ["Spring Boot", "React", "Tatum API", "PostgreSQL"]
+          },
+          {
+            "projectDescription": "Maintaining a desktop application for remote monitoring of miners.",
+            "skills": ["C#", "ASP.NET", "XAML"]
+          }
+        ]
       }
     ]
   },
@@ -90,7 +124,7 @@
       { "title": "React" },
       { "title": "Redux" },
       { "title": "Vue.js" },
-      { "title": "Pinia"},
+      { "title": "Pinia" },
       { "title": "Tailwind" },
       { "title": "Material UI" },
       { "title": "Bootstrap" },
@@ -99,13 +133,17 @@
       { "title": "Jest" },
       { "title": "Vitest" },
       { "title": "Cypress" },
+      { "title": "web3.js" },
       { "title": "Git", "background": "#8d2b30" },
       { "title": "Node.js", "background": "#8d2b30" },
       { "title": "NestJS", "background": "#8d2b30" },
+      { "title": "Astro.js", "background": "#8d2b30" },
+      { "title": "Strapi", "background": "#8d2b30" },
       { "title": "Java Spring Boot", "background": "#8d2b30" },
       { "title": "Blockchain", "background": "#8d2b30" },
       { "title": "Ethereum Blockchain", "background": "#8d2b30" },
       { "title": "Metamask", "background": "#8d2b30" },
+      { "title": "Solidity", "background": "#8d2b30" },
       { "title": "MySQL", "background": "#8d2b30" },
       { "title": "PostgreSQL", "background": "#8d2b30" },
       { "title": "MongoDB", "background": "#8d2b30" },
