@@ -47,10 +47,21 @@
       {
         "title": "Fullstack Software Developer",
         "company": {
+          "name": "Quipu",
+          "url": "https://www.quipu.de/"
+        },
+        "startDate": "2025-02-01",
+        "projects": [
+        ]
+      },
+      {
+        "title": "Fullstack Software Developer",
+        "company": {
           "name": "Nextsense",
           "url": "https://nextsense.com/"
         },
         "startDate": "2023-06-01",
+        "endDate": "2025-01-01",
         "projects": [
           {
             "projectDescription": "eCabinet North Macedonia - Document management system for internal use in the institution where all decision-making processes are implemented.",
