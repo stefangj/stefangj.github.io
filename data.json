@@ -138,7 +138,7 @@
             "skills": ["Spring Boot", "React", "MaterialUI", "PostgreSQL"]
           },
           {
-            "projectDescription": "Developed REST API for mobile application for Anhoch(Shop for computer equipment).",
+            "projectDescription": "Developed REST API for mobile application for Anhoch.com",
             "skills": ["Spring Boot", "REST API", "MySQL"]
           }
         ]
