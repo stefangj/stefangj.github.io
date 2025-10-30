@@ -2,7 +2,7 @@
   "header": {
     "headline": "Stefan Gjurcheski",
     "title": "Fullstack Software Developer",
-    "intro": "I am an enthusiastic, self-motivated, responsible and hard working software engineer. A mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. My previous experience is both in frontend and backend technologies that make me fully prepared for building complete web applications. Motivated to advance and expand my skill set through target mentorship and challenging projects.",
+    "intro": "I am an enthusiastic, self-driven, and results-oriented Senior Software Engineer with a strong foundation in both frontend and backend development, capable of delivering robust, end-to-end web applications. I thrive in collaborative team environments and excel when taking initiative on complex, high-impact projects. With a proven track record of adaptability and continuous learning, I am now focused on expanding my expertise in blockchain technologies, driven by a passion for innovation, decentralized systems, and building secure, scalable solutions that shape the future of digital ecosystems.",
     "contacts": [
       {
         "type": "email",
@@ -52,6 +52,20 @@
         },
         "startDate": "2025-01-01",
         "projects": [
+          {
+            "projectDescription": "e-Banking platform - Platform that enables users across multiple European countries to securely manage their finances online while ensuring full compliance with regional banking regulations and standards.",
+            "skills": [
+              "C#",
+              ".NET Core",
+              ".NET Framework",
+              "EF Core",
+              "T-SQL",
+              "Razor",
+              "React",
+              "Identity Server",
+              "Azure DevOps"
+            ]
+          }
         ]
       },
       {
@@ -178,49 +192,67 @@
   "skills": {
     "title": "Skills",
     "data": [
-      { "title": "C#", "background": "#01788F" },
-      { "title": ".NET Core", "background": "#01788F" },
-      { "title": ".NET Framework", "background": "#01788F" },
-      { "title": "Java Spring Boot", "background": "#01788F" },
-      { "title": "Solidity", "background": "#01788F" },
-      { "title": "Node.js", "background": "#01788F" },
-      { "title": "NestJS", "background": "#01788F" },
-      { "title": "Astro.js", "background": "#01788F" },
-      { "title": "Strapi", "background": "#01788F" },
-      { "title": "Git", "background": "#01788F" },
-      { "title": "Ethereum Blockchain", "background": "#01788F" },
-      { "title": "Metamask", "background": "#01788F" },
-      { "title": "Blockchain", "background": "#01788F" },
-      { "title": "MySQL", "background": "#01788F" },
-      { "title": "PostgreSQL", "background": "#01788F" },
-      { "title": "T-SQL", "background": "#01788F" },
-      { "title": "EF Core", "background": "#01788F" },
-      { "title": "MongoDB", "background": "#01788F" },
-      { "title": "Docker", "background": "#01788F" },
-      { "title": "MVC", "background": "#01788F" },
-      { "title": "MVVM", "background": "#01788F" },
-      { "title": "Microservices", "background": "#01788F" },
-      { "title": "JavaScript / TypeScript" },
-      { "title": "Angular" },
-      { "title": "Angular.js" },
-      { "title": "React" },
-      { "title": "Redux" },
-      { "title": "Vue.js" },
-      { "title": "Pinia" },
-      { "title": "Tailwind" },
-      { "title": "MaterialUI" },
-      { "title": "Bootstrap" },
-      { "title": "Webpack" },
-      { "title": "Vite" },
-      { "title": "Jest" },
-      { "title": "Vitest" },
-      { "title": "Cypress" },
-      { "title": "web3.js" }
+      { "title": "C#", "background": "#0E7C86" },
+      { "title": "JavaScript / TypeScript", "background": "#0E7C86" },
+      { "title": "T-SQL", "background": "#0E7C86" },
+      { "title": "Solidity", "background": "#0E7C86" },
+
+      { "title": ".NET Core", "background": "#138D94" },
+      { "title": ".NET Framework", "background": "#138D94" },
+      { "title": "Java Spring Boot", "background": "#138D94" },
+      { "title": "Node.js", "background": "#138D94" },
+      { "title": "NestJS", "background": "#138D94" },
+      { "title": "Strapi", "background": "#138D94" },
+
+      { "title": "Angular", "background": "#17A2A3" },
+      { "title": "Angular.js", "background": "#17A2A3" },
+      { "title": "React", "background": "#17A2A3" },
+      { "title": "Redux", "background": "#17A2A3" },
+      { "title": "Vue.js", "background": "#17A2A3" },
+      { "title": "Pinia", "background": "#17A2A3" },
+      { "title": "Next.js", "background": "#17A2A3" },
+      { "title": "Astro.js", "background": "#17A2A3" },
+
+      { "title": "Tailwind", "background": "#1AB4A6" },
+      { "title": "MaterialUI", "background": "#1AB4A6" },
+      { "title": "Bootstrap", "background": "#1AB4A6" },
+      { "title": "Webpack", "background": "#1AB4A6" },
+      { "title": "Vite", "background": "#1AB4A6" },
+
+      { "title": "Jest", "background": "#1FBFA9" },
+      { "title": "Vitest", "background": "#1FBFA9" },
+      { "title": "Cypress", "background": "#1FBFA9" },
+
+      { "title": "MySQL", "background": "#25C4A9" },
+      { "title": "PostgreSQL", "background": "#25C4A9" },
+      { "title": "MongoDB", "background": "#25C4A9" },
+      { "title": "EF Core", "background": "#25C4A9" },
+
+      { "title": "MVC", "background": "#2AC9A9" },
+      { "title": "MVVM", "background": "#2AC9A9" },
+      { "title": "Microservices", "background": "#2AC9A9" },
+
+      { "title": "Git", "background": "#30CDA9" },
+      { "title": "Docker", "background": "#30CDA9" },
+      { "title": "Azure DevOps", "background": "#30CDA9" },
+
+      { "title": "Blockchain", "background": "#3AD0A7" },
+      { "title": "Ethereum Blockchain", "background": "#3AD0A7" },
+      { "title": "Metamask", "background": "#3AD0A7" },
+      { "title": "web3.js", "background": "#3AD0A7" },
+      { "title": "ethers.js", "background": "#3AD0A7" },
+      { "title": "Hardhat", "background": "#3AD0A7" },
+      { "title": "IPFS", "background": "#3AD0A7" }
     ]
   },
   "projects": {
     "title": "Personal Project",
     "data": [
+      {
+        "title": "Ethereum Voting System",
+        "startDate": "2025-09-01",
+        "description": "Currently developing a crowdfunding DApp as a personal project to deepen my skills in blockchain development, focusing on smart contracts, decentralized finance mechanisms, and Web3 integration."
+      },
       {
         "title": "Ethereum Voting System",
         "startDate": "2021-10-01",
