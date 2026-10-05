@@ -1,8 +1,8 @@
 {
   "header": {
     "headline": "Stefan Gjurcheski",
-    "title": "Fullstack Software Developer",
-    "intro": "I am an enthusiastic, self-driven, and results-oriented Senior Software Engineer with a strong foundation in both frontend and backend development, capable of delivering robust, end-to-end web applications. I thrive in collaborative team environments and excel when taking initiative on complex, high-impact projects. With a proven track record of adaptability and continuous learning, I am now focused on expanding my expertise in blockchain technologies, driven by a passion for innovation, decentralized systems, and building secure, scalable solutions that shape the future of digital ecosystems.",
+    "title": "Senior Full-Stack Developer | .NET / C# | Angular / React",
+    "intro": "Senior Full-Stack Software Developer with 5+ years of experience building and maintaining end-to-end web applications across financial, government, and enterprise environments. Strong hands-on experience with C#, .NET Core, ASP.NET, EF Core, T-SQL, Angular, React, TypeScript and REST APIs.\n\nExperienced in working on production systems, complex business workflows, document-management platforms and e-banking applications. Comfortable joining existing development teams, taking ownership of features, fixing issues, improving existing codebases and delivering new functionality independently.\n\n**Available for remote freelance/contract work — up to 20 hours/week.**", 
     "contacts": [
       {
         "type": "email",
@@ -45,7 +45,7 @@
     "title": "Work Experience",
     "data": [
       {
-        "title": "Fullstack Software Developer",
+        "title": "Full-Stack Software Developer",
         "company": {
           "name": "Quipu GmbH",
           "url": "https://www.quipu.de/"
@@ -53,23 +53,35 @@
         "startDate": "2025-01-01",
         "projects": [
           {
-            "projectDescription": "e-Banking platform - Platform that enables users across multiple European countries to securely manage their finances online while ensuring full compliance with regional banking regulations and standards.",
+            "projectDescription": "E-Banking Platform — Production financial platform used across multiple European countries.",
             "skills": [
               "C#",
               ".NET Core",
               ".NET Framework",
               "EF Core",
               "T-SQL",
-              "Razor",
               "React",
-              "Identity Server",
+              "IdentityServer",
+              "Azure DevOps"
+            ]
+          },
+          {
+            "projectDescription": "- Develop and maintain full-stack functionality for an e-banking platform.\n- Work across backend and frontend components using C#, .NET Core, .NET Framework, EF Core, T-SQL and React.\n- Work with authentication and identity infrastructure using IdentityServer.\n- Contribute to development workflows using Azure DevOps.\n- Work on secure, business-critical financial software within a regulated environment.",
+            "skills": [
+              "C#",
+              ".NET Core",
+              ".NET Framework",
+              "EF Core",
+              "T-SQL",
+              "React",
+              "IdentityServer",
               "Azure DevOps"
             ]
           }
         ]
       },
       {
-        "title": "Fullstack Software Developer",
+        "title": "Full-Stack Software Developer",
         "company": {
           "name": "Nextsense",
           "url": "https://nextsense.com/"
@@ -78,7 +90,7 @@
         "endDate": "2025-01-01",
         "projects": [
           {
-            "projectDescription": "eCabinet North Macedonia - Document management system for internal use in the institution where all decision-making processes are implemented.",
+            "projectDescription": "Worked on multiple enterprise and government document-management systems:\n- eCabinet North Macedonia — internal document-management and decision-making platform.\n- eParliament — document-management system.\n- Official Gazette North Macedonia — platform for publishing classifieds by notaries and executors.\n- Developed and maintained backend functionality using C#, .NET Core, .NET Framework, EF Core and T-SQL.\n- Developed frontend functionality using Angular and Angular.js.\n- Worked with Material UI.\n- Delivered functionality across multiple enterprise applications with complex business workflows.",
             "skills": [
               "C#",
               ".NET Core",
@@ -86,31 +98,8 @@
               "EF Core",
               "T-SQL",
               "Angular",
-              "MaterialUI"
-            ]
-          },
-          {
-            "projectDescription": "eParliament - Document management system.",
-            "skills": [
-              "C#",
-              ".NET Core",
-              ".NET Framework",
-              "EF Core",
-              "T-SQL",
               "Angular.js",
-              "MaterialUI"
-            ]
-          },
-          {
-            "projectDescription": "Official Gazette North Macedonia - Document management system for publishing classifieds by the notaries and executors in North Macedonia.",
-            "skills": [
-              "C#",
-              ".NET Core",
-              ".NET Framework",
-              "EF Core",
-              "T-SQL",
-              "Angular",
-              "MaterialUI"
+              "Material UI"
             ]
           }
         ]
@@ -125,7 +114,7 @@
         "endDate": "2023-05-30",
         "projects": [
           {
-            "projectDescription": "New Intertec Website",
+            "projectDescription": "Worked on the New Intertec Website.",
             "href": "https://intertec.io",
             "skills": [
               "Strapi",
@@ -139,26 +128,7 @@
         ]
       },
       {
-        "title": "Software Engineer",
-        "company": {
-          "name": "Inteligenta.io",
-          "url": "https://inteligenta.io"
-        },
-        "startDate": "2022-02-01",
-        "endDate": "2022-09-01",
-        "projects": [
-          {
-            "projectDescription": "Worked on a web application for allocation of testers in High Schools, North Macedonia.",
-            "skills": ["Spring Boot", "React", "MaterialUI", "PostgreSQL"]
-          },
-          {
-            "projectDescription": "Developed REST API for mobile application for Anhoch.com",
-            "skills": ["Spring Boot", "REST API", "MySQL"]
-          }
-        ]
-      },
-      {
-        "title": "Blockchain Developer",
+        "title": "Software Engineer / Blockchain Developer",
         "company": {
           "name": "Inteligenta.io",
           "url": "https://inteligenta.io"
@@ -167,12 +137,18 @@
         "endDate": "2022-09-01",
         "projects": [
           {
-            "projectDescription": "Developed a web application for buying, sending and staking fungible tokens on XinFin Blockchain Network.",
-            "skills": ["Spring Boot", "React", "Tatum API", "PostgreSQL"]
-          },
-          {
-            "projectDescription": "Maintaining a desktop application for remote monitoring of miners.",
-            "skills": ["C#", "ASP.NET", "XAML"]
+            "projectDescription": "- Developed a web application for buying, sending and staking fungible tokens on the XinFin Blockchain Network.\n- Maintained a desktop application for remote monitoring of miners.\n- Worked on web applications and REST APIs using Java/Spring Boot and React.\n- Developed REST API functionality for a mobile application for Anhoch.com.",
+            "skills": [
+              "Java",
+              "Spring Boot",
+              "React",
+              "PostgreSQL",
+              "MySQL",
+              "Tatum API",
+              "C#",
+              "ASP.NET",
+              "XAML"
+            ]
           }
         ]
       }
@@ -193,54 +169,40 @@
     "title": "Skills",
     "data": [
       { "title": "C#", "background": "#0E7C86" },
-      { "title": "JavaScript / TypeScript", "background": "#0E7C86" },
+      { "title": ".NET Core", "background": "#0E7C86" },
+      { "title": ".NET Framework", "background": "#0E7C86" },
+      { "title": "ASP.NET", "background": "#0E7C86" },
+      { "title": "EF Core", "background": "#0E7C86" },
+      { "title": "REST APIs", "background": "#0E7C86" },
       { "title": "T-SQL", "background": "#0E7C86" },
-      { "title": "Solidity", "background": "#0E7C86" },
+      { "title": "Microservices", "background": "#0E7C86" },
 
-      { "title": ".NET Core", "background": "#138D94" },
-      { "title": ".NET Framework", "background": "#138D94" },
-      { "title": "Java Spring Boot", "background": "#138D94" },
-      { "title": "Node.js", "background": "#138D94" },
-      { "title": "NestJS", "background": "#138D94" },
-      { "title": "Strapi", "background": "#138D94" },
+      { "title": "Angular", "background": "#138D94" },
+      { "title": "React", "background": "#138D94" },
+      { "title": "TypeScript", "background": "#138D94" },
+      { "title": "JavaScript", "background": "#138D94" },
+      { "title": "Next.js", "background": "#138D94" },
+      { "title": "Angular.js", "background": "#138D94" },
+      { "title": "Material UI", "background": "#138D94" },
 
-      { "title": "Angular", "background": "#17A2A3" },
-      { "title": "Angular.js", "background": "#17A2A3" },
-      { "title": "React", "background": "#17A2A3" },
-      { "title": "Redux", "background": "#17A2A3" },
-      { "title": "Vue.js", "background": "#17A2A3" },
-      { "title": "Pinia", "background": "#17A2A3" },
-      { "title": "Next.js", "background": "#17A2A3" },
-      { "title": "Astro.js", "background": "#17A2A3" },
+      { "title": "SQL Server / T-SQL", "background": "#17A2A3" },
+      { "title": "PostgreSQL", "background": "#17A2A3" },
+      { "title": "MySQL", "background": "#17A2A3" },
+      { "title": "MongoDB", "background": "#17A2A3" },
 
-      { "title": "Tailwind", "background": "#1AB4A6" },
-      { "title": "MaterialUI", "background": "#1AB4A6" },
-      { "title": "Bootstrap", "background": "#1AB4A6" },
-      { "title": "Webpack", "background": "#1AB4A6" },
-      { "title": "Vite", "background": "#1AB4A6" },
+      { "title": "Git", "background": "#1AB4A6" },
+      { "title": "Docker", "background": "#1AB4A6" },
+      { "title": "Azure DevOps", "background": "#1AB4A6" },
 
-      { "title": "Jest", "background": "#1FBFA9" },
-      { "title": "Vitest", "background": "#1FBFA9" },
-      { "title": "Cypress", "background": "#1FBFA9" },
-
-      { "title": "MySQL", "background": "#25C4A9" },
-      { "title": "PostgreSQL", "background": "#25C4A9" },
-      { "title": "MongoDB", "background": "#25C4A9" },
-      { "title": "EF Core", "background": "#25C4A9" },
-
-      { "title": "MVC", "background": "#2AC9A9" },
-      { "title": "MVVM", "background": "#2AC9A9" },
-      { "title": "Microservices", "background": "#2AC9A9" },
-
-      { "title": "Git", "background": "#30CDA9" },
-      { "title": "Docker", "background": "#30CDA9" },
-      { "title": "Azure DevOps", "background": "#30CDA9" },
-
+      { "title": "Node.js", "background": "#3AD0A7" },
+      { "title": "NestJS", "background": "#3AD0A7" },
+      { "title": "Vue.js", "background": "#3AD0A7" },
+      { "title": "Java / Spring Boot", "background": "#3AD0A7" },
       { "title": "Blockchain", "background": "#3AD0A7" },
-      { "title": "Ethereum Blockchain", "background": "#3AD0A7" },
-      { "title": "Metamask", "background": "#3AD0A7" },
-      { "title": "web3.js", "background": "#3AD0A7" },
+      { "title": "Ethereum", "background": "#3AD0A7" },
+      { "title": "Solidity", "background": "#3AD0A7" },
       { "title": "ethers.js", "background": "#3AD0A7" },
+      { "title": "web3.js", "background": "#3AD0A7" },
       { "title": "Hardhat", "background": "#3AD0A7" },
       { "title": "IPFS", "background": "#3AD0A7" }
     ]
@@ -248,11 +210,6 @@
   "projects": {
     "title": "Personal Project",
     "data": [
-      {
-        "title": "Crowdfunding dApp",
-        "startDate": "2025-09-01",
-        "description": "Currently developing a crowdfunding DApp as a personal project to deepen my skills in blockchain development, focusing on smart contracts, decentralized finance mechanisms, and Web3 integration."
-      },
       {
         "title": "Ethereum Voting System",
         "startDate": "2021-10-01",
