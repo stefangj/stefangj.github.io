@@ -7,6 +7,8 @@ import jsPDF from "jspdf";
 import "./DownloadPDF.css";
 import classNames from "classnames";
 
+const PDF_CONTENT_WIDTH = 1080;
+
 export const DownloadPDF: FC<DownloadPDFButtonProps> = ({ contentRef }) => {
   const [isPreparing, setIsPreparing] = useState<boolean>(false);
 
@@ -35,31 +37,47 @@ export const DownloadPDF: FC<DownloadPDFButtonProps> = ({ contentRef }) => {
     if (!contentRef.current) return;
     setIsPreparing(true);
 
-    const cv = new jsPDF({
-      orientation: "portrait",
-      unit: "mm",
-      format: "a4",
-      putOnlyUsedFonts: true,
-      compress: true,
-    });
+    const exportRoot = contentRef.current.cloneNode(true) as HTMLElement;
+    exportRoot.style.width = `${PDF_CONTENT_WIDTH}px`;
+    exportRoot.style.position = "fixed";
+    exportRoot.style.left = "0";
+    exportRoot.style.top = "0";
+    document.body.appendChild(exportRoot);
 
-    cv.html(contentRef.current, {
-      image: { type: "jpeg", quality: 0.9 },
-      html2canvas: {
-        scale: 0.205,
-        letterRendering: true,
-        async: true,
-        backgroundColor: "#FFFFFF",
-      },
-      autoPaging: true,
-      callback: () => {
-        addClickableLinks(cv, contentRef.current!);
-        cv.setProperties({ title: "Stefan Gjurcheski CV" });
-      },
-    }).then(() => {
+    try {
+      const cv = new jsPDF({
+        orientation: "portrait",
+        unit: "mm",
+        format: "a4",
+        putOnlyUsedFonts: true,
+        compress: true,
+      });
+
+      await cv.html(exportRoot, {
+        width: PDF_CONTENT_WIDTH,
+        windowWidth: PDF_CONTENT_WIDTH,
+        image: { type: "jpeg", quality: 0.9 },
+        html2canvas: {
+          scale: 0.205,
+          letterRendering: true,
+          async: true,
+          backgroundColor: "#FFFFFF",
+          windowWidth: PDF_CONTENT_WIDTH,
+        },
+        autoPaging: true,
+        callback: () => {
+          addClickableLinks(cv, exportRoot);
+          cv.setProperties({ title: "Stefan Gjurcheski CV" });
+        },
+      });
       cv.save("CV Stefan Gjurcheski.pdf");
+    } catch (error) {
+      console.error("Failed to generate PDF", error);
+      window.alert("Unable to generate the PDF. Please try again.");
+    } finally {
+      exportRoot.remove();
       setIsPreparing(false);
-    });
+    }
   }, [addClickableLinks, contentRef]);
 
   return (
