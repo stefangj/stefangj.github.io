@@ -29,19 +29,16 @@ const App: FC = () => {
           <div ref={rootRef}>
             <Header {...componentsData.header} />
             <div className="content">
-              <div style={{ pageBreakAfter: "always" }}>
+              <div>
                 <div>
-                <WorkExperience {...componentsData.workExperience} />
-                <Education {...componentsData.education} />
+                  <WorkExperience {...componentsData.workExperience} />
                 </div>
                 <div>
                   <Skills {...componentsData.skills} />
+                  <Education {...componentsData.education} />
+                  <Projects {...componentsData.projects} />
                   <Languages {...componentsData.languages} />
                 </div>
-
-              </div>
-              <div>
-                <Projects {...componentsData.projects} />
               </div>
             </div>
           </div>

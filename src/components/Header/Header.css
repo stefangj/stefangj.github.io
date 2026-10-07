@@ -2,39 +2,56 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 0.75rem;
+  padding: 1rem 1rem 0.75rem;
   justify-content: space-between;
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  background: #ffffff;
 }
 
 @media only screen and (min-width: 800px) {
   .header {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr) 240px;
     align-items: center;
+    column-gap: 0.9rem;
   }
 
   .header .who-am-i {
     display: flex;
-    max-width: 500px;
+    min-width: 0;
+    max-width: none;
   }
 }
 
 .header h1 {
   font-size: 2rem;
   margin: 0;
+  line-height: 1.1;
 }
 
 .header h6 {
-  margin: 0;
+  margin: 0 0 0.2rem;
   font-weight: normal;
+  line-height: 1.2;
+}
+
+.header p {
+  margin: 0;
+  line-height: 1.25;
+  font-size: 0.9rem;
 }
 
 .header .contacts {
   list-style: none;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   padding: 0;
   margin: 0;
+  min-width: 0;
+}
+
+.header .contacts .item {
+  margin-bottom: 0.2rem;
 }
 
 .header .contacts .item a,
@@ -43,9 +60,32 @@
   color: var(--text-color);
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  font-size: 0.8rem;
+  line-height: 1.25;
+}
+
+.header .contacts .item img {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.profile-image {
+  flex-shrink: 0;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dfe9eb;
 }
 
 .profile-image > img {
-  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }

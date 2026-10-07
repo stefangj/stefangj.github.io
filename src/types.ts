@@ -27,6 +27,12 @@ export type HeaderProps = {
   contacts: Contact[];
 };
 
+export type WorkProject = {
+  projectDescription: string;
+  href?: string;
+  skills?: string[];
+};
+
 export type WorkExperience = {
   title: string;
   company: {
@@ -35,6 +41,7 @@ export type WorkExperience = {
   };
   startDate: string;
   endDate?: string;
+  projects?: WorkProject[];
 };
 
 export type Education = {
@@ -49,8 +56,14 @@ export type Skill = {
   background: string;
 };
 
-export type Project = Omit<WorkExperience, "company"> & {
-  description: string;
+export type Project = {
+  title: string;
+  startDate: string;
+  endDate?: string;
+  description?: string;
+  projectDescription?: string;
+  href?: string;
+  skills?: string[];
 };
 
 export type Language = {

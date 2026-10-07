@@ -1,15 +1,28 @@
 .languages {
-  margin-bottom: 2rem;
+  margin-bottom: 0.75rem;
 }
 
 .languages h2 {
   margin-top: 0;
+  margin-bottom: 0.75rem;
 }
 
 .languages .items {
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.languages .items .item {
+  display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 0.2rem;
+  min-width: 140px;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid #dfe9eb;
+  border-radius: 12px;
+  background: #f3f8f9;
+  box-shadow: 0 6px 16px #edf2f2;
 }
 
 .languages .items .item h6,
@@ -17,7 +30,12 @@
   margin: 0;
 }
 
+.languages .items .item h6 {
+  color: var(--text-color);
+}
+
 .languages .items .item p {
-  margin-top: 0.3rem;
   word-wrap: break-word;
+  font-size: 0.85rem;
+  color: var(--primary-color);
 }

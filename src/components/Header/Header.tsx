@@ -11,7 +11,7 @@ export const Header: FC<HeaderProps> = ({
   return (
     <header className='header'>
       <div className='profile-image'>
-        <img src='/profile.jpg' alt='profile' height={200} width={200}/>
+        <img src='/profile.png' alt='profile' height={200} width={200}/>
       </div>
       <div className='who-am-i'>
         <div>

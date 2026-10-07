@@ -12,12 +12,61 @@
   gap: 1.5rem;
 }
 
+.projects .items .item {
+  position: relative;
+  padding: 1.1rem 1.25rem 1rem 1.25rem;
+  border: 1px solid #dfe9eb;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px #edf2f2;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.projects .items .item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px #dfe9eb;
+}
+
+.projects .items .item::before {
+  width: 4px;
+  height: calc(100% - 24px);
+  display: block;
+  position: absolute;
+  content: "";
+  background: var(--primary-color);
+  left: 0.8rem;
+  top: 0.9rem;
+  border-radius: 999px;
+}
+
 .projects .items .item h6,
 .projects .items .item p {
   margin: 0;
+  padding-left: 1rem;
+}
+
+.projects .items .item h6 {
+  margin-bottom: 0.35rem;
 }
 
 .projects .items .item p {
   margin-top: 0.3rem;
   word-wrap: break-word;
+  line-height: 1.5;
+}
+
+.projects .items .item .skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+}
+
+.projects .items .item .skill {
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.35rem 0.55rem;
+  font-size: 0.8rem;
 }
