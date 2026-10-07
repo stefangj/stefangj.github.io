@@ -31,8 +31,11 @@
 }
 
 .header h6 {
-  margin: 0 0 0.2rem;
-  font-weight: normal;
+  margin: 0.35rem 0 0.5rem;
+  color: var(--primary-color);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   line-height: 1.2;
 }
 
@@ -40,6 +43,7 @@
   margin: 0;
   line-height: 1.25;
   font-size: 0.9rem;
+  text-align: justify;
 }
 
 .header .contacts {
@@ -81,6 +85,13 @@
   align-items: center;
   justify-content: center;
   background: #dfe9eb;
+}
+
+@media only screen and (max-width: 799px) {
+  .profile-image,
+  .header .contacts {
+    align-self: center;
+  }
 }
 
 .profile-image > img {
